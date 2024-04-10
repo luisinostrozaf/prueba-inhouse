@@ -1,10 +1,13 @@
 import express from 'express';
 import fs from 'fs';
 import bodyparser from 'body-parser';
+import cors from 'cors';
 
 
 const app = express();
 app.use(bodyparser.json());
+app.use(cors());
+
 
 const readData = () => {
     try {
