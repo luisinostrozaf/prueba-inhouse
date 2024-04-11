@@ -6,7 +6,7 @@ Eslint
 
 para correrlo:
 
--Clonar el repositorio <br>
+-Clonar el repositorio o descargar en formato zip y descomprimir<br>
 -Navegar hacia el directorio o abrir en vscode <br>
 -Abrir terminal y ejecutar:
 
