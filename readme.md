@@ -30,7 +30,7 @@ npm run dev
 ---------------------------------------------------------------
 macOS
 
-luego instalar open en cmd
+instalar open en cmd
 
 ```
 npm install open
