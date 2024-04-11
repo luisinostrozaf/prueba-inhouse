@@ -21,8 +21,12 @@ En windows, modificar el archivo *package.json* linea 11 por:
 ```
 "dev": "start index.html && nodemon index.js"
 ```
+Abrir terminal e instalar nodemon
+```
+npm install nodemon
+```
 
--Abrir terminal y ejecutar:
+Ejecutar:
 
 ```
 npm run dev
@@ -35,7 +39,13 @@ instalar open en cmd
 ```
 npm install open
 ```
--Abrir terminal y ejecutar:
+
+Abrir terminal e instalar nodemon
+```
+npm install nodemon
+```
+
+Ejecutar:
 
 ```
 npm run dev
