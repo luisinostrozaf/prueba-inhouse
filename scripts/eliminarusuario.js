@@ -11,7 +11,7 @@ document.getElementById("deleteButton").addEventListener("click", function(event
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         } else {
-            console.log('User deleted successfully');
+            document.getElementById("message").textContent = "El usuario ha sido eliminado exitosamente";
         }
     })
     .catch(error => console.log('Error:', error));

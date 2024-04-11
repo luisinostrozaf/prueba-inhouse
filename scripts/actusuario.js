@@ -15,4 +15,5 @@ formElement.addEventListener("submit", async (event) => {
         },
         body: usuarioJson,
     })
+    document.getElementById("message").textContent = "El usuario ha sido actualizado exitosamente";
 });

@@ -3,17 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <link rel="icon" type="svg" href="favicon.svg" />
+    <link rel="icon" type="svg" href="../favicon.svg" />
     <link href="../style.css" rel="stylesheet">
     <title>Eliminar Usuario</title>
 </head>
 <body class="body">
-    <form id="eliminarusuario">
-        <h1>Ingrese el id del usuario a eliminar</h1>
-        <label for="id">Id:</label>
-        <input type="text" id="id" name="id" required>
-        <input type="submit" value="Eliminar Usuario" id="deleteButton">
-    </form>
+    <div class="formato">
+        <form id="eliminarusuario">
+            <h1>Ingrese el id del usuario a eliminar</h1>
+            <label for="id">ID:</label>
+            <input type="text" id="id" name="id" required>
+            <input type="submit" value="Eliminar Usuario" id="deleteButton">
+            <p id="message"></p>
+        </form>
+        <img class="volver" src="../volver.svg" alt="Volver" onclick="window.location.href = '../index.html'">
+    </div>
 </body>
 <script src="../scripts/eliminarusuario.js"></script>
 </html>

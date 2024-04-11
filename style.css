@@ -33,7 +33,90 @@
 }
 
 .texto{
-    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.volver{
+    width: 200px;
+    padding: 1px;
+    height: 200px;
+    display: flex;
+}
+
+.formato {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto 10px;
+    width: 50%;
+    padding: 0 100px 100px;
+    border-radius: 10px;
+}
+
+#crearusuario {
     font-size: 20px;
-    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    gap: 10px;
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#crearusuario input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#actusuario {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    gap: 8px;
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#actusuario input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+#eliminarusuario{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    gap: 8px;
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#eliminarusuario input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
