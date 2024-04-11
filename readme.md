@@ -7,7 +7,8 @@ Eslint
 para correrlo:
 
 -Clonar el repositorio <br>
--navegar hacia el directorio o abrir en vscode y utilizar el comando:
+-Navegar hacia el directorio o abrir en vscode <br>
+-Abrir terminal y ejecutar:
 
 npm run dev
 
