@@ -6,7 +6,7 @@ Eslint
 
 para correrlo:
 
--Clonar el repositorio
+-Clonar el repositorio <br>
 -navegar hacia el directorio y utilizar el comando:
 
 npm run dev
